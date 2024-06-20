@@ -1,0 +1,12 @@
+a=14
+count=0
+i=2
+while(i<(a//2)+1):
+    if(a%i==0):
+        count+=1
+    if(count>0):
+        a+=1
+        i=1
+        count=0
+    i+=1
+print(a)

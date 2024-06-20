@@ -1,0 +1,14 @@
+pen=[9,8,7,6]
+i=0
+bp=pen[0]
+m=0
+sp=0
+while(i<len(pen)):
+    if(bp>pen[i]):
+        bp=pen[i]
+    else:
+        sp=pen[i]-bp
+        if(m<sp):
+            m=sp
+    i+=1
+print(m)
